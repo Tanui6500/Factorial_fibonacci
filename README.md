@@ -3,7 +3,6 @@ EB3/61576/22
 import java.util.HashMap;
 
 public class FactorialFibonacci {
-    private static HashMap<Integer, Long> fibCache = new HashMap<>();
 
     public static long factorial(int n) {
         if (n == 0 || n == 1) return 1;
